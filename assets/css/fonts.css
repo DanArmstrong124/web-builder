@@ -1,0 +1,53 @@
+.title-font {
+    font-size: 40px;
+}
+    .logo-spacing {
+        font-size: 20px;
+    }
+    .menu-text {
+        font-size: 20px;
+    }
+
+@media only screen and (max-width: 600px) {
+  .title-font {
+    font-size: 30px;
+  }
+  .title {
+      padding-top: 30px;
+      padding-right: 65px;
+  }
+    .menu-text {
+      display: none;
+    }
+    .logo-spacing {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+  .title-font {
+    font-size: 20px;
+    letter-spacing: 3px;
+  }
+  .title {
+      padding-top: 30px;
+      padding-right: 65px;
+  }
+    .menu-text {
+      display: none;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+  .title-font {
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+  .title {
+      padding-top: 30px;
+      padding-right: 80px;
+  }
+  .menu-text {
+      display: none;
+  }
+}
